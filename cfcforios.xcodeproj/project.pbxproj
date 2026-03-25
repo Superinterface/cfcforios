@@ -10,9 +10,33 @@
 		0AB4D0542F701C5F00AEC70D /* cfcforios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cfcforios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0A899F8D2F73D67F006BB8BC /* Exceptions for "cfcforios" folder in "cfcforios" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				libcimbar/LICENSE,
+			);
+			target = 0AB4D0532F701C5F00AEC70D /* cfcforios */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		0A899F8E2F73D67F006BB8BC /* Exceptions for "cfcforios" folder in "Compile Sources" phase from "cfcforios" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 0AB4D0502F701C5F00AEC70D /* Sources */;
+			membershipExceptions = (
+				libcimbar/LICENSE,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		0AB4D0562F701C5F00AEC70D /* cfcforios */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0A899F8D2F73D67F006BB8BC /* Exceptions for "cfcforios" folder in "cfcforios" target */,
+				0A899F8E2F73D67F006BB8BC /* Exceptions for "cfcforios" folder in "Compile Sources" phase from "cfcforios" target */,
+			);
 			path = cfcforios;
 			sourceTree = "<group>";
 		};
@@ -262,9 +286,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/cfcforios/third_party_lib",
-					"$(SRCROOT)/cfcforios/third_party_lib/libcorrect/include",
-					"$(SRCROOT)/cfcforios/lib",
+					"$(SRCROOT)/cfcforios/libcimbar/third_party_lib",
+					"$(SRCROOT)/cfcforios/libcimbar/third_party_lib/libcorrect/include",
+					"$(SRCROOT)/cfcforios/libcimbar/lib",
 				);
 				INFOPLIST_KEY_NSCameraUsageDescription = "使用相机扫描动态码";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -302,9 +326,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/cfcforios/third_party_lib",
-					"$(SRCROOT)/cfcforios/third_party_lib/libcorrect/include",
-					"$(SRCROOT)/cfcforios/lib",
+					"$(SRCROOT)/cfcforios/libcimbar/third_party_lib",
+					"$(SRCROOT)/cfcforios/libcimbar/third_party_lib/libcorrect/include",
+					"$(SRCROOT)/cfcforios/libcimbar/lib",
 				);
 				INFOPLIST_KEY_NSCameraUsageDescription = "使用相机扫描动态码";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
